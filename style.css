@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f7f7f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .balance {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .inc-exp-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .money {
+    font-size: 20px;
+  }
+  
+  .money.plus {
+    color: green;
+  }
+  
+  .money.minus {
+    color: red;
+  }
+  
+  .list {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .list li {
+    background: #eee;
+    padding: 10px;
+    border-right: 5px solid;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .list li.plus {
+    border-color: green;
+  }
+  
+  .list li.minus {
+    border-color: red;
+  }
+  
+  .form-control {
+    margin: 10px 0;
+  }
+  
+  input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
